@@ -1,4 +1,3 @@
 {
-  "buildCommand": "npm run build -- --outDir dist",
-  "outputDirectory": "dist"
+  "outputDirectory": "../backend/src/main/resources/static"
 }
