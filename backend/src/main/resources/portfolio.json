@@ -1,0 +1,702 @@
+{
+  "achievements": [],
+  "certifications": [
+    {
+      "issuer": "HackerRank",
+      "name": "Java (Basic)",
+      "detail": "Validates fundamental programming and problem-solving skills."
+    },
+    {
+      "issuer": "HackerRank",
+      "name": "Python (Basic)",
+      "detail": "Validates fundamental programming and problem-solving skills."
+    }
+  ],
+  "education": [
+    {
+      "school": "Sri Mittapalli College Of Engineering",
+      "place": "Guntur",
+      "degree": "Bachelor of Technology — Computer Science",
+      "period": "2023 – 2027"
+    },
+    {
+      "school": "Narayana Junior College",
+      "place": "Guntur",
+      "degree": "MPC",
+      "period": "2021 – 2023"
+    }
+  ],
+  "experience": [],
+  "introSlides": [
+    {
+      "kicker": "Education",
+      "title": "B.Tech · Computer Science",
+      "lines": [
+        "Sri Mittapalli College Of Engineering, Guntur",
+        "2023 – 2027"
+      ]
+    },
+    {
+      "kicker": "Skills",
+      "title": "Java first.",
+      "lines": [
+        "Java · C · Python (basic syntax)",
+        "JDBC · Servlets · Filters · SQL (MySQL)"
+      ],
+      "chips": [
+        "Java",
+        "JDBC",
+        "Servlets",
+        "Filters",
+        "MySQL"
+      ]
+    },
+    {
+      "kicker": "Projects",
+      "title": "Two Originals",
+      "lines": [
+        "Student Management System — full CRUD on Java, JDBC, Servlets & MySQL",
+        "Banking System Management — role-based access & real-time validation"
+      ]
+    },
+    {
+      "kicker": "Certified",
+      "title": "HackerRank",
+      "lines": [
+        "Java (Basic)",
+        "Python (Basic)"
+      ]
+    },
+    {
+      "kicker": "Next up",
+      "title": "Ready to build.",
+      "lines": [
+        "Eager to contribute to a backend development team"
+      ]
+    }
+  ],
+  "profile": {
+    "fullName": "Kappala Chiranjeeva",
+    "displayName": "Kappala Chiranjeeva",
+    "firstName": "CHIRANJEEVA",
+    "shortName": "Chiranjeeva",
+    "initials": "KC",
+    "seriesTag": "THE SERIES",
+    "originalLabel": "A KAPPALA ORIGINAL",
+    "role": "Backend Developer",
+    "tagline": [
+      "Backend Developer",
+      "Java",
+      "SQL"
+    ],
+    "badge": "JAVA·SQL",
+    "originalsBlurb": "Two productions from the resume — a student records system and a banking system. Open any title for the full story.",
+    "intro": "An entry-level backend developer with a strong foundation in Java, JDBC, Servlets and SQL. Built a full-stack Student Management System that handles data-driven web workflows end to end. A quick learner with a solid grasp of OOP and relational database design, eager to contribute to a backend development team.",
+    "location": "Guntur, Andhra Pradesh",
+    "email": "kchiru053@gmail.com",
+    "links": {
+      "github": "https://github.com/kchiru053"
+    },
+    "resumePdf": "/assets/Kappala_Chiranjeeva_Resume.pdf",
+    "highlights": [
+      {
+        "text": "B.Tech · CSE",
+        "sub": "2023 – 2027"
+      },
+      {
+        "text": "Java · JDBC · Servlets",
+        "sub": "Backend core"
+      },
+      {
+        "text": "SQL · MySQL",
+        "sub": "Database"
+      }
+    ],
+    "facts": [
+      {
+        "k": "Studying",
+        "v": "B.Tech, Computer Science",
+        "s": "Sri Mittapalli College Of Engineering · 2023 – 2027"
+      },
+      {
+        "k": "Focus",
+        "v": "Backend Development",
+        "s": "Java · JDBC · Servlets · SQL"
+      },
+      {
+        "k": "Primary language",
+        "v": "Java",
+        "s": "with C and Python (basic syntax)"
+      },
+      {
+        "k": "Based in",
+        "v": "Guntur, Andhra Pradesh",
+        "s": "India"
+      }
+    ],
+    "interests": []
+  },
+  "projects": [
+    {
+      "id": "student-management-system",
+      "title": "Student Management System",
+      "genre": "Java • JDBC • Servlets",
+      "logline": "A web-based admin tool for managing student records, with full CRUD on a MySQL database.",
+      "stack": [
+        "Java",
+        "JDBC",
+        "Servlets",
+        "Filters",
+        "MySQL"
+      ],
+      "build": [
+        "Designed and developed a web-based Student Management System enabling admins to manage student records — name, roll number, marks and address.",
+        "Implemented full CRUD (Create, Read, Update, Delete) operations for student data using Java, JDBC and Servlets, connected to a MySQL database.",
+        "Built request-handling logic with Servlets and Filters to route Create/Read/Update/Delete actions and manage authentication.",
+        "Designed the relational database schema in MySQL and wrote SQL queries to support all CRUD operations with data integrity."
+      ],
+      "features": [
+        "Admins manage student records (name, roll no, marks, address)",
+        "Full CRUD with Java, JDBC and Servlets",
+        "Servlets and Filters route actions and handle authentication",
+        "Relational MySQL schema with data integrity"
+      ],
+      "metrics": [
+        {
+          "value": "CRUD",
+          "label": "create · read · update · delete"
+        },
+        {
+          "value": "4",
+          "label": "fields per student record"
+        },
+        {
+          "value": "MySQL",
+          "label": "relational database"
+        }
+      ],
+      "palette": {
+        "from": "#04121f",
+        "via": "#0f4c6e",
+        "to": "#05080d",
+        "accent": "#4cc9ff"
+      },
+      "motif": "tenants"
+    },
+    {
+      "id": "banking-system",
+      "title": "Banking System Management",
+      "genre": "Backend • Security • Databases",
+      "logline": "A banking management system covering accounts, balances, deposits, withdrawals and fund transfers.",
+      "stack": [
+        "Authentication",
+        "RBAC",
+        "Relational Database"
+      ],
+      "build": [
+        "Designed and developed a banking management system to handle core operations: account creation, balance inquiry, deposits, withdrawals and fund transfers.",
+        "Implemented secure user authentication and role-based access control (Admin / Customer) to protect sensitive financial data.",
+        "Built a relational database schema to manage customer records, transaction logs and account details, ensuring data integrity and consistency.",
+        "Integrated real-time transaction validation and error handling to prevent invalid or fraudulent operations."
+      ],
+      "features": [
+        "Account creation, balance inquiry, deposits, withdrawals, fund transfers",
+        "Secure authentication with Admin / Customer role-based access",
+        "Schema for customers, transaction logs and account details",
+        "Real-time transaction validation and error handling"
+      ],
+      "metrics": [
+        {
+          "value": "5",
+          "label": "core banking operations"
+        },
+        {
+          "value": "2",
+          "label": "roles — Admin & Customer"
+        },
+        {
+          "value": "3",
+          "label": "data domains — customers, accounts, transactions"
+        }
+      ],
+      "palette": {
+        "from": "#1a0d02",
+        "via": "#8a4a07",
+        "to": "#0a0806",
+        "accent": "#ffb547"
+      },
+      "motif": "shield"
+    }
+  ],
+  "seasons": [
+    {
+      "number": 1,
+      "title": "The Beginning",
+      "period": "2021 – 2023",
+      "synopsis": "Intermediate years at Narayana Junior College, Guntur.",
+      "episodes": [
+        {
+          "code": "S01 E01",
+          "title": "The Foundation",
+          "description": "MPC at Narayana Junior College, Guntur.",
+          "tags": [
+            "MPC"
+          ],
+          "runtime": "2021 – 2023",
+          "palette": {
+            "from": "#1c1003",
+            "via": "#6b3c06",
+            "to": "#0a0806",
+            "accent": "#ffb547"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Enter: Computer Science",
+      "period": "2023 – 2027",
+      "synopsis": "B.Tech in Computer Science at Sri Mittapalli College Of Engineering, Guntur.",
+      "episodes": [
+        {
+          "code": "S02 E01",
+          "title": "The Engineer",
+          "description": "Bachelor of Technology in Computer Science.",
+          "tags": [
+            "B.Tech",
+            "CSE"
+          ],
+          "runtime": "2023 – 2027",
+          "palette": {
+            "from": "#120822",
+            "via": "#3d1a6e",
+            "to": "#07060c",
+            "accent": "#b98bff"
+          }
+        },
+        {
+          "code": "S02 E02",
+          "title": "The Certified",
+          "description": "HackerRank Java (Basic) and Python (Basic) certifications, validating fundamental programming and problem-solving skills.",
+          "tags": [
+            "HackerRank",
+            "Java",
+            "Python"
+          ],
+          "runtime": "Certifications",
+          "palette": {
+            "from": "#03150f",
+            "via": "#0d5a40",
+            "to": "#050a08",
+            "accent": "#46e3a8"
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Building Backends",
+      "period": "Projects",
+      "synopsis": "Two Originals — a Student Management System and a Banking System Management app — each built around relational data and data integrity.",
+      "episodes": [
+        {
+          "code": "S03 E01",
+          "title": "The Record Keeper",
+          "description": "Student Management System — full CRUD for student records with Java, JDBC, Servlets and MySQL.",
+          "tags": [
+            "Java",
+            "JDBC",
+            "Servlets",
+            "MySQL"
+          ],
+          "runtime": "Project",
+          "palette": {
+            "from": "#04121f",
+            "via": "#0f4c6e",
+            "to": "#05080d",
+            "accent": "#4cc9ff"
+          }
+        },
+        {
+          "code": "S03 E02",
+          "title": "The Gatekeeper",
+          "description": "Servlets and Filters route every CRUD action and manage authentication.",
+          "tags": [
+            "Servlets",
+            "Filters",
+            "Authentication"
+          ],
+          "runtime": "Project",
+          "palette": {
+            "from": "#120822",
+            "via": "#3d1a6e",
+            "to": "#07060c",
+            "accent": "#b98bff"
+          }
+        },
+        {
+          "code": "S03 E03",
+          "title": "The Banker",
+          "description": "Banking System Management — accounts, deposits, withdrawals and transfers, with Admin / Customer access control and real-time validation.",
+          "tags": [
+            "Banking",
+            "RBAC",
+            "Validation"
+          ],
+          "runtime": "Project",
+          "palette": {
+            "from": "#1c1003",
+            "via": "#6b3c06",
+            "to": "#0a0806",
+            "accent": "#ffb547"
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "What's Next",
+      "period": "Now streaming",
+      "synopsis": "The resume ends on a goal: contributing to a backend development team.",
+      "episodes": [
+        {
+          "code": "S04 E01",
+          "title": "The Next Chapter",
+          "description": "A quick learner, eager to contribute to a backend development team.",
+          "tags": [
+            "Backend",
+            "Java",
+            "SQL"
+          ],
+          "runtime": "Next up",
+          "palette": {
+            "from": "#24060b",
+            "via": "#6e0d1d",
+            "to": "#09070a",
+            "accent": "#ff3d5a"
+          }
+        }
+      ]
+    }
+  ],
+  "sectionMeta": {
+    "about": {
+      "nav": "About",
+      "card": "About Me",
+      "meta": "The Pilot • Education & focus",
+      "palette": {
+        "from": "#120822",
+        "via": "#3d1a6e",
+        "to": "#07060c",
+        "accent": "#b98bff"
+      }
+    },
+    "journey": {
+      "nav": "Journey",
+      "card": "My Journey",
+      "meta": "4 Seasons • 7 Episodes",
+      "palette": {
+        "from": "#1c1003",
+        "via": "#6b3c06",
+        "to": "#0a0806",
+        "accent": "#ffb547"
+      }
+    },
+    "originals": {
+      "nav": "Originals",
+      "card": "My Projects",
+      "meta": "2 Originals",
+      "palette": {
+        "from": "#24060b",
+        "via": "#6e0d1d",
+        "to": "#09070a",
+        "accent": "#ff3d5a"
+      }
+    },
+    "picks": {
+      "nav": "Top Picks",
+      "card": "Top Picks",
+      "meta": "Top 7 from the resume",
+      "palette": {
+        "from": "#03150f",
+        "via": "#0d5a40",
+        "to": "#050a08",
+        "accent": "#46e3a8"
+      }
+    },
+    "skills": {
+      "nav": "Skills",
+      "card": "My Skills",
+      "meta": "4 Categories",
+      "palette": {
+        "from": "#04121f",
+        "via": "#0f4c6e",
+        "to": "#05080d",
+        "accent": "#4cc9ff"
+      }
+    },
+    "moments": {
+      "nav": "Moments",
+      "card": "My Certifications",
+      "meta": "2 Certifications",
+      "palette": {
+        "from": "#24060b",
+        "via": "#6e0d1d",
+        "to": "#09070a",
+        "accent": "#ff3d5a"
+      }
+    },
+    "story": {
+      "nav": "Resume",
+      "card": "The Full Story",
+      "meta": "Resume • View & download",
+      "palette": {
+        "from": "#120822",
+        "via": "#3d1a6e",
+        "to": "#07060c",
+        "accent": "#b98bff"
+      }
+    }
+  },
+  "skillCategories": [
+    {
+      "id": "languages",
+      "title": "Languages",
+      "subtitle": "Java first",
+      "skills": [
+        {
+          "name": "Java",
+          "mono": "Jv",
+          "note": "Primary"
+        },
+        {
+          "name": "C",
+          "mono": "C"
+        },
+        {
+          "name": "Python",
+          "mono": "Py",
+          "note": "Basic syntax"
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend / Web",
+      "subtitle": "Server-side logic",
+      "skills": [
+        {
+          "name": "JDBC",
+          "mono": "Jd"
+        },
+        {
+          "name": "Servlets",
+          "mono": "Sv"
+        },
+        {
+          "name": "Filters",
+          "mono": "Fl"
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Database",
+      "subtitle": "Schema design • Queries",
+      "skills": [
+        {
+          "name": "SQL",
+          "mono": "Sq"
+        },
+        {
+          "name": "MySQL",
+          "mono": "My"
+        }
+      ]
+    },
+    {
+      "id": "fundamentals",
+      "title": "Fundamentals",
+      "subtitle": "The foundations",
+      "skills": [
+        {
+          "name": "OOP",
+          "mono": "Oo"
+        },
+        {
+          "name": "Relational Design",
+          "mono": "Rd"
+        }
+      ]
+    }
+  ],
+  "skillEvidence": {
+    "Java": [
+      "Student Management System",
+      "HackerRank Java (Basic)"
+    ],
+    "Python": [
+      "HackerRank Python (Basic)"
+    ],
+    "JDBC": [
+      "Student Management System"
+    ],
+    "Servlets": [
+      "Student Management System"
+    ],
+    "Filters": [
+      "Student Management System"
+    ],
+    "SQL": [
+      "Student Management System"
+    ],
+    "MySQL": [
+      "Student Management System"
+    ],
+    "Relational Design": [
+      "Student Management System",
+      "Banking System Management"
+    ]
+  },
+  "topPicks": [
+    {
+      "label": "Primary language",
+      "title": "Java",
+      "detail": "With JDBC & Servlets for the backend",
+      "palette": {
+        "from": "#1c1003",
+        "via": "#6b3c06",
+        "to": "#0a0806",
+        "accent": "#ffb547"
+      }
+    },
+    {
+      "label": "The first Original",
+      "title": "Student Mgmt System",
+      "detail": "Full CRUD • Java, JDBC, Servlets",
+      "palette": {
+        "from": "#04121f",
+        "via": "#0f4c6e",
+        "to": "#05080d",
+        "accent": "#4cc9ff"
+      }
+    },
+    {
+      "label": "The second Original",
+      "title": "Banking System",
+      "detail": "Admin / Customer role-based access",
+      "palette": {
+        "from": "#24060b",
+        "via": "#6e0d1d",
+        "to": "#09070a",
+        "accent": "#ff3d5a"
+      }
+    },
+    {
+      "label": "Database",
+      "title": "MySQL",
+      "detail": "SQL queries & relational schema design",
+      "palette": {
+        "from": "#03150f",
+        "via": "#0d5a40",
+        "to": "#050a08",
+        "accent": "#46e3a8"
+      }
+    },
+    {
+      "label": "Certified",
+      "title": "HackerRank",
+      "detail": "Java (Basic) • Python (Basic)",
+      "palette": {
+        "from": "#120822",
+        "via": "#3d1a6e",
+        "to": "#07060c",
+        "accent": "#b98bff"
+      }
+    },
+    {
+      "label": "Fundamentals",
+      "title": "OOP",
+      "detail": "Solid grasp of OOP & relational design",
+      "palette": {
+        "from": "#1c1003",
+        "via": "#6b3c06",
+        "to": "#0a0806",
+        "accent": "#ffb547"
+      }
+    },
+    {
+      "label": "The degree",
+      "title": "B.Tech CSE",
+      "detail": "Sri Mittapalli College · 2023 – 2027",
+      "palette": {
+        "from": "#04121f",
+        "via": "#0f4c6e",
+        "to": "#05080d",
+        "accent": "#4cc9ff"
+      }
+    }
+  ],
+  "viewerProfiles": [
+    {
+      "id": "chiranjeeva",
+      "name": "Chiranjeeva",
+      "blurb": "The full series, in order",
+      "color": "#e5132b",
+      "order": [
+        "about",
+        "journey",
+        "originals",
+        "picks",
+        "skills",
+        "moments",
+        "story"
+      ]
+    },
+    {
+      "id": "recruiter",
+      "name": "Recruiter",
+      "blurb": "Resume, certifications & skills first",
+      "color": "#4cc9ff",
+      "order": [
+        "story",
+        "moments",
+        "skills",
+        "originals",
+        "about",
+        "journey",
+        "picks"
+      ]
+    },
+    {
+      "id": "developer",
+      "name": "Developer",
+      "blurb": "Projects, stack & GitHub first",
+      "color": "#46e3a8",
+      "order": [
+        "originals",
+        "skills",
+        "journey",
+        "moments",
+        "about",
+        "picks",
+        "story"
+      ]
+    },
+    {
+      "id": "creative",
+      "name": "Creative",
+      "blurb": "The story arc & highlights first",
+      "color": "#ffb547",
+      "order": [
+        "journey",
+        "picks",
+        "originals",
+        "moments",
+        "about",
+        "skills",
+        "story"
+      ]
+    }
+  ]
+}
